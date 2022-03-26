@@ -16,7 +16,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
+        <p style={{ color: "red" }}>
           This is a mirror of <code>killergf</code>
           <br></br>
           killerbf
