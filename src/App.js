@@ -1,6 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import styled from "styled-components";
+import HeaderMenu from "./components/HeaderMenu";
 
 const Button = styled.button`
   background: transparent;
@@ -11,15 +12,18 @@ const Button = styled.button`
   padding: 0.25em 1em;
 `;
 
+//function HeaderMenu() {
+// <HeaderMenu>Home Story Gallery Roadmap Artist</HeaderMenu>;
+//}
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p style={{ color: "red" }}>
-          This is a mirror of <code>killergf</code>
+        <p style={{ color: "pink" }}>
+          This is a mirror of <i>killergf</i>
           <br></br>
-          killerbf
+          𝔨𝔦𝔩𝔩𝔢𝔯𝔟𝔣
         </p>
         <Button>View On OpenSea</Button>
         <br></br>
@@ -29,7 +33,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          this site is created with react ;(
+          this site is created with react
         </a>
       </header>
     </div>
