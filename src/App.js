@@ -5,11 +5,12 @@ import HeaderMenu from "./components/HeaderMenu";
 
 const Button = styled.button`
   background: transparent;
-  border-radius: 3px;
-  border: 2px solid palevioletred;
+  border-radius: 0px;
+  border: 0.05em solid palevioletred;
   color: palevioletred;
   margin: 0 1em;
   padding: 0.25em 1em;
+  font-family: times;
 `;
 
 //function HeaderMenu() {
@@ -20,11 +21,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p style={{ color: "pink" }}>
-          This is a mirror of <i>killergf</i>
-          <br></br>
-          𝔨𝔦𝔩𝔩𝔢𝔯𝔟𝔣
-        </p>
+        <p style={{ color: "pink" }}>𝔨𝔦𝔩𝔩𝔢𝔯𝔟𝔣</p>
+        <u>Please dont kill me</u>
         <Button>View On OpenSea</Button>
         <br></br>
         <a
@@ -32,9 +30,7 @@ function App() {
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
-        >
-          this site is created with react
-        </a>
+        ></a>
       </header>
     </div>
   );
