@@ -1,4 +1,5 @@
 import logo from "./logo.svg";
+import john from "./img/johncook.png";
 import "./App.css";
 import styled from "styled-components";
 import HeaderMenu from "./components/HeaderMenu";
@@ -20,9 +21,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <img src={john} style={{ width: "28vw", position:"absolute", top:"5rem" }}/>
         <img src={logo} className="App-logo" alt="logo" />
+        
         <p style={{ color: "#ff0069" }}>𝔨𝔦𝔩𝔩𝔢𝔯𝔟𝔣</p>
-        <u>Please dont kill me</u>
+        {/* <u>Please dont kill me</u> */}
         <Button>View On OpenSea</Button>
         <br></br>
         <a
