@@ -21,7 +21,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p style={{ color: "pink" }}>𝔨𝔦𝔩𝔩𝔢𝔯𝔟𝔣</p>
+        <p style={{ color: "#ff0069" }}>𝔨𝔦𝔩𝔩𝔢𝔯𝔟𝔣</p>
         <u>Please dont kill me</u>
         <Button>View On OpenSea</Button>
         <br></br>
