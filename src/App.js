@@ -21,7 +21,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={john} style={{ width: "28vw", position:"absolute", top:"5rem" }}/>
+        {/* <img src={john} style={{ width: "28vw", position:"absolute", top:"5rem" }}/> */}
         ☁︎ ✦ ☾  
         <br/>𝒴𝑜𝓊 𝒶𝓇𝑒 𝓈𝑜 𝒷𝑒𝒶𝓊𝓉𝒾𝒻𝓊𝓁 ༄࿔✧･ﾟ.· 𓃴
         {/* <img src={logo}  className="App-logo" alt="logo" /> */}
