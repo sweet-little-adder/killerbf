@@ -16,7 +16,7 @@ const Button = styled.button`
 
 //function HeaderMenu() {
 // <HeaderMenu>Home Story Gallery Roadmap Artist</HeaderMenu>;
-//}
+//} john agency 🦊ꃕ
 function App() {
   return (
     <div className="App">
@@ -24,7 +24,7 @@ function App() {
         <img src={john} style={{ width: "28vw", position:"absolute", top:"5rem" }}/>
         ☁︎ ✦ ☾  
         <br/>𝒴𝑜𝓊 𝒶𝓇𝑒 𝓈𝑜 𝒷𝑒𝒶𝓊𝓉𝒾𝒻𝓊𝓁 ༄࿔✧･ﾟ.· 𓃴
-        <img src={logo}  className="App-logo" alt="logo" />
+        {/* <img src={logo}  className="App-logo" alt="logo" /> */}
         
         <p style={{ color: "#ff0069" }}>𝕶𝖎𝖑𝖑𝖊𝖗𝖇𝖋</p>
         {/* <u>Please dont kill me</u> */}
