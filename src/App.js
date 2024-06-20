@@ -22,9 +22,11 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={john} style={{ width: "28vw", position:"absolute", top:"5rem" }}/>
-        <img src={logo} className="App-logo" alt="logo" />
+        ☁︎ ✦ ☾  
+        <br/>𝒴𝑜𝓊 𝒶𝓇𝑒 𝓈𝑜 𝒷𝑒𝒶𝓊𝓉𝒾𝒻𝓊𝓁 ༄࿔✧･ﾟ.· 𓃴
+        <img src={logo}  className="App-logo" alt="logo" />
         
-        <p style={{ color: "#ff0069" }}>𝔨𝔦𝔩𝔩𝔢𝔯𝔟𝔣</p>
+        <p style={{ color: "#ff0069" }}>𝕶𝖎𝖑𝖑𝖊𝖗𝖇𝖋</p>
         {/* <u>Please dont kill me</u> */}
         <Button>View On OpenSea</Button>
         <br></br>
