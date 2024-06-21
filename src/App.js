@@ -26,7 +26,7 @@ function App() {
         <br/>𝒴𝑜𝓊 𝒶𝓇𝑒 𝓈𝑜 𝒷𝑒𝒶𝓊𝓉𝒾𝒻𝓊𝓁 ༄࿔✧･ﾟ.· 𓃴
         {/* <img src={logo}  className="App-logo" alt="logo" /> */}
         
-        <div className="my-6 text-[120px] text-[#A2E5F7]">𝙆𝙞𝙡𝙡𝙚𝙧𝘽𝙁</div>
+        <div className="my-6 text-[80px] md:text-[120px] text-[#A2E5F7] pointer-events-none hover:drop-shadow-[0_4px_5px_0px_rgba(162, 229, 247, 0.1)]">𝙆𝙄𝙇𝙇𝙀𝙍   𝘽𝙁</div>
         {/* <u>Please dont kill me</u> */}
         <Button>View On OpenSea</Button>
         <br></br>
