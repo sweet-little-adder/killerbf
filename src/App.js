@@ -6,9 +6,9 @@ import HeaderMenu from "./components/HeaderMenu";
 
 const Button = styled.button`
   background: transparent;
-  border-radius: 0px;
-  border: 0.05em solid palevioletred;
-  color: palevioletred;
+  border-radius: 35px;
+  border: 0.05em solid #A2E5F7;
+  color: #A2E5F7;
   margin: 0 1em;
   padding: 0.25em 1em;
   font-family: times;
@@ -26,7 +26,7 @@ function App() {
         <br/>𝒴𝑜𝓊 𝒶𝓇𝑒 𝓈𝑜 𝒷𝑒𝒶𝓊𝓉𝒾𝒻𝓊𝓁 ༄࿔✧･ﾟ.· 𓃴
         {/* <img src={logo}  className="App-logo" alt="logo" /> */}
         
-        <div className="my-6 text-6xl">ABC𝙆𝙞𝙡𝙡𝙚𝙧𝘽𝙁</div>
+        <div className="my-6 text-[120px] text-[#A2E5F7]">𝙆𝙞𝙡𝙡𝙚𝙧𝘽𝙁</div>
         {/* <u>Please dont kill me</u> */}
         <Button>View On OpenSea</Button>
         <br></br>
