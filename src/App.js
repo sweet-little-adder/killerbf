@@ -26,7 +26,7 @@ function App() {
         <br/>𝒴𝑜𝓊 𝒶𝓇𝑒 𝓈𝑜 𝒷𝑒𝒶𝓊𝓉𝒾𝒻𝓊𝓁 ༄࿔✧･ﾟ.· 𓃴
         {/* <img src={logo}  className="App-logo" alt="logo" /> */}
         
-        <p style={{ color: "#ff0069" }}>𝕶𝖎𝖑𝖑𝖊𝖗𝖇𝖋</p>
+        <div className="my-6 text-6xl">ABC𝙆𝙞𝙡𝙡𝙚𝙧𝘽𝙁</div>
         {/* <u>Please dont kill me</u> */}
         <Button>View On OpenSea</Button>
         <br></br>
