@@ -16,7 +16,7 @@ const Button = styled.button`
 
 //function HeaderMenu() {
 // <HeaderMenu>Home Story Gallery Roadmap Artist</HeaderMenu>;
-//} john agency 🦊ꃕ
+//}  killerbf avenge killed gf 🦊ꃕ
 function App() {
   return (
     <div className="App">
@@ -26,9 +26,9 @@ function App() {
         <br/>𝒴𝑜𝓊 𝒶𝓇𝑒 𝓈𝑜 𝒷𝑒𝒶𝓊𝓉𝒾𝒻𝓊𝓁 ༄࿔✧･ﾟ.· 𓃴
         {/* <img src={logo}  className="App-logo" alt="logo" /> */}
         
-        <div className="my-6 text-[80px] md:text-[120px] text-[#A2E5F7] pointer-events-none hover:drop-shadow-[0_4px_5px_0px_rgba(162, 229, 247, 0.1)]">𝙆𝙄𝙇𝙇𝙀𝙍   𝘽𝙁</div>
+        <div className="flex my-6 text-[80px] md:text-[120px] text-[#A2E5F7] pointer-events-none hover:drop-shadow-[0_4px_5px_0px_rgba(162, 229, 247, 0.1)]">𝙆𝙄𝙇𝙇𝙀𝙍 𝘽𝙁 <div className="text-[16px] translate-x-[1rem] translate-y-[1rem]">ⓒ</div></div>
         {/* <u>Please dont kill me</u> */}
-        <Button>View On OpenSea</Button>
+        <Button>𝘝𝘪𝘦𝘸 𝘰𝘯 𝘖𝘱𝘦𝘯𝘚𝘦𝘢</Button>
         <br></br>
         <a
           className="App-link"
