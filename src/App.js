@@ -6,8 +6,8 @@ import HeaderMenu from "./components/HeaderMenu";
 
 const Button = styled.button`
   background: transparent;
-  border-radius: 35px;
-  border: 0.05em solid #A2E5F7;
+  border-radius: 16px;
+  border: 0.01em solid #A2E5F7;
   color: #A2E5F7;
   margin: 0 1em;
   padding: 0.25em 1em;
@@ -16,19 +16,27 @@ const Button = styled.button`
 
 //function HeaderMenu() {
 // <HeaderMenu>Home Story Gallery Roadmap Artist</HeaderMenu>;
-//}  killerbf avenge killed gf 🦊ꃕ
+//}  killerbf avenge killed gf 🦊ꃕ 
+// moon princess, 
+// x_x, 
+// killer?, 
+// bf investigate n revenge, 
+// bf kills gf's family, 
+// game story: 
+// gf disappeared after years of psychologcal abuse by family, 
+// gf finds bfs to help her cope.
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <header className="App-header transition-all">
         {/* <img src={john} style={{ width: "28vw", position:"absolute", top:"5rem" }}/> */}
         ☁︎ ✦ ☾  
-        <br/>𝒴𝑜𝓊 𝒶𝓇𝑒 𝓈𝑜 𝒷𝑒𝒶𝓊𝓉𝒾𝒻𝓊𝓁 ༄࿔✧･ﾟ.· 𓃴
+        <br/><div className="hover:drop-shadow-[0_0px_8px_rgba(299,299,299,0.8)]">𝒴𝑜𝓊 𝒶𝓇𝑒 𝓈𝑜 𝒷𝑒𝒶𝓊𝓉𝒾𝒻𝓊𝓁 ༄࿔✧･ﾟ.· 𓃴</div>
         {/* <img src={logo}  className="App-logo" alt="logo" /> */}
         
-        <div className="flex my-6 text-[80px] md:text-[120px] text-[#A2E5F7] pointer-events-none hover:drop-shadow-[0_4px_5px_0px_rgba(162, 229, 247, 0.1)]">𝙆𝙄𝙇𝙇𝙀𝙍 𝘽𝙁 <div className="text-[16px] translate-x-[1rem] translate-y-[1rem]">ⓒ</div></div>
+        <div className="flex my-6 text-[80px] md:text-[120px] text-[#A2E5F7] cursor-default hover:drop-shadow-[0_0px_16px_rgba(162,229,247,0.3)]">𝙆𝙄𝙇𝙇𝙀𝙍 𝘽𝙁 <div className="text-[16px] translate-x-[1rem] translate-y-[1rem]">ⓒ</div></div>
         {/* <u>Please dont kill me</u> */}
-        <Button>𝘝𝘪𝘦𝘸 𝘰𝘯 𝘖𝘱𝘦𝘯𝘚𝘦𝘢</Button>
+        <div className="flex"><Button className="hover:bg-[#A2E5F7] hover:text-[#202829] hover:drop-shadow-[0_0px_20px_rgba(299,299,299,0.25)]">⬅️ 𝘛𝘠 𝘕𝘦𝘹𝘵</Button><Button className="hover:drop-shadow-[0_0px_20px_rgba(299,299,299,0.25)] hover:bg-[#A2E5F7] hover:text-[#202829]">𝘠𝘦𝘴𝘴! ➡️</Button></div>
         <br></br>
         <a
           className="App-link"
