@@ -27,7 +27,7 @@ const Button = styled.button`
 // gf finds bfs to help her cope.
 function App() {
   return (
-    <div className="App transition-all">
+    <div className="App transition-all select-none">
       <header className="App-header ">
         {/* <img src={john} style={{ width: "28vw", position:"absolute", top:"5rem" }}/> */}
         <div className="transition-all cursor-default hover:drop-shadow-[0_0px_8px_rgba(299,299,299,0.8)]">☁︎ ✦ ☾ </div> 
