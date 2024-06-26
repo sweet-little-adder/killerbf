@@ -27,16 +27,16 @@ const Button = styled.button`
 // gf finds bfs to help her cope.
 function App() {
   return (
-    <div className="App">
-      <header className="App-header transition-all">
+    <div className="App transition-all">
+      <header className="App-header ">
         {/* <img src={john} style={{ width: "28vw", position:"absolute", top:"5rem" }}/> */}
-        ☁︎ ✦ ☾  
-        <br/><div className="hover:drop-shadow-[0_0px_8px_rgba(299,299,299,0.8)]">𝒴𝑜𝓊 𝒶𝓇𝑒 𝓈𝑜 𝒷𝑒𝒶𝓊𝓉𝒾𝒻𝓊𝓁 ༄࿔✧･ﾟ.· 𓃴</div>
+        <div className="transition-all cursor-default hover:drop-shadow-[0_0px_8px_rgba(299,299,299,0.8)]">☁︎ ✦ ☾ </div> 
+<div className="transition-all hover:drop-shadow-[0_0px_8px_rgba(299,299,299,0.8)] cursor-default">𝒴𝑜𝓊 𝒶𝓇𝑒 𝓈𝑜 𝒷𝑒𝒶𝓊𝓉𝒾𝒻𝓊𝓁 ༄࿔✧･ﾟ.· 𓃴</div>
         {/* <img src={logo}  className="App-logo" alt="logo" /> */}
         
-        <div className="flex my-6 text-[80px] md:text-[120px] text-[#A2E5F7] cursor-default hover:drop-shadow-[0_0px_16px_rgba(162,229,247,0.3)]">𝙆𝙄𝙇𝙇𝙀𝙍 𝘽𝙁 <div className="text-[16px] translate-x-[1rem] translate-y-[1rem]">ⓒ</div></div>
+        <div className="flex my-6 text-[80px] md:text-[120px] text-[#A2E5F7] cursor-default transition-all hover:drop-shadow-[0_0px_16px_rgba(162,229,247,0.3)]">𝙆𝙄𝙇𝙇𝙀𝙍 𝘽𝙁 <div className="text-[16px] translate-x-[1rem] translate-y-[1rem]">ⓒ</div></div>
         {/* <u>Please dont kill me</u> */}
-        <div className="flex"><Button className="hover:bg-[#A2E5F7] hover:text-[#202829] hover:drop-shadow-[0_0px_20px_rgba(299,299,299,0.25)]">⬅️ 𝘛𝘠 𝘕𝘦𝘹𝘵</Button><Button className="hover:drop-shadow-[0_0px_20px_rgba(299,299,299,0.25)] hover:bg-[#A2E5F7] hover:text-[#202829]">𝘠𝘦𝘴𝘴! ➡️</Button></div>
+        <div className="flex"><Button className="transition-all hover:bg-[#A2E5F7] hover:text-[#202829] hover:drop-shadow-[0_0px_20px_rgba(299,299,299,0.25)]">⬅️ 𝘕𝘦𝘹𝘵</Button><Button className="transition-all hover:drop-shadow-[0_0px_20px_rgba(299,299,299,0.25)] hover:bg-[#A2E5F7] hover:text-[#202829]">𝘠𝘦𝘴𝘴! ➡️</Button></div>
         <br></br>
         <a
           className="App-link"
