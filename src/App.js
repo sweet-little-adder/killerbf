@@ -26,6 +26,7 @@ const Button = styled.button`
 // game story: 
 // gf disappeared after years of psychologcal abuse by family, 
 // gf finds bfs to help her cope.
+//choose weapon
 function App() {
   return (
     <div className="App transition-all select-none">
@@ -37,7 +38,9 @@ function App() {
         
         <div className="flex my-6 text-[80px] md:text-[120px] text-[#A2E5F7] cursor-default transition-all hover:drop-shadow-[0_0px_16px_rgba(162,229,247,0.3)]">𝙆𝙄𝙇𝙇𝙀𝙍 𝘽𝙁 <div className="text-[16px] translate-x-[1rem] translate-y-[1rem]">ⓒ</div></div>
         {/* <u>Please dont kill me</u> */}
-        <div className="flex"><Button className="transition-all hover:bg-[#A2E5F7] hover:text-[#202829] hover:drop-shadow-[0_0px_20px_rgba(299,299,299,0.25)]">⬅️ 𝘕𝘦𝘹𝘵</Button><Button className="transition-all hover:drop-shadow-[0_0px_20px_rgba(299,299,299,0.25)] hover:bg-[#A2E5F7] hover:text-[#202829]">𝘠𝘦𝘴𝘴! ➡️</Button></div>
+        <div className="flex"><Button className="transition-all hover:bg-[#A2E5F7] hover:text-[#202829] hover:drop-shadow-[0_0px_20px_rgba(299,299,299,0.25)]"> 𝘕𝘦𝘹𝘵 ➡️</Button>
+        {/* <Button className="transition-all hover:drop-shadow-[0_0px_20px_rgba(299,299,299,0.25)] hover:bg-[#A2E5F7] hover:text-[#202829]">𝘠𝘦𝘴𝘴! ➡️</Button> */}
+        </div>
         <br></br>
         <a
           className="App-link"
