@@ -6,7 +6,7 @@ import HeaderMenu from "./components/HeaderMenu";
 
 const Button = styled.button`
   background: transparent;
-  border-radius: 16px;
+  border-radius: 999px;
   border: 0.01em solid #A2E5F7;
   color: #A2E5F7;
   margin: 0 1em;
