@@ -30,7 +30,7 @@ const Button = styled.button`
 function App() {
   return (
     <div className="App transition-all select-none">
-      <header className="App-header ">
+      <header className="App-header relative z-50 bg-[#202829]/20">
         {/* <img src={john} style={{ width: "28vw", position:"absolute", top:"5rem" }}/> */}
         <div className="transition-all cursor-default hover:drop-shadow-[0_0px_8px_rgba(299,299,299,0.8)]">☁︎ ✦ ☾ </div> 
 <div className="transition-all hover:drop-shadow-[0_0px_8px_rgba(299,299,299,0.8)] cursor-default">𝒴𝑜𝓊 𝒶𝓇𝑒 𝓈𝑜 𝒷𝑒𝒶𝓊𝓉𝒾𝒻𝓊𝓁 ༄࿔✧･ﾟ.· 𓃴</div>
@@ -49,6 +49,7 @@ function App() {
           rel="noopener noreferrer"
         ></a>
       </header>
+      <div class="sketchfab-embed-wrapper" className="bg-black absolute top-0 left-0 w-full h-full z-10 flex justify-center/"> <iframe title="The dark heart of an interstellar nebula" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/cc16104dfcd04338abc997a3156a25b3/embed?autospin=1&autostart=1&transparent=1&ui_infos=0&ui_watermark_link=0&ui_watermark=0&ui_hint=0&ui_theme=dark&ui_color=000000&dnt=1"> </iframe> </div>
     </div>
   );
 }
