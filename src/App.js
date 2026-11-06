@@ -1,8 +1,5 @@
-import logo from "./logo.svg";
-import john from "./img/johncook.png";
 import "./App.css";
 import styled from "styled-components";
-import HeaderMenu from "./components/HeaderMenu";
 import { useState } from "react";
 
 const Button = styled.button`
@@ -78,13 +75,6 @@ function App() {
         <div className="flex"><Button className="transition-all hover:bg-[#A2E5F7] hover:text-[#202829] hover:drop-shadow-[0_0px_20px_rgba(299,299,299,0.25)]"> ♡ </Button>
         {/* <Button className="transition-all hover:drop-shadow-[0_0px_20px_rgba(299,299,299,0.25)] hover:bg-[#A2E5F7] hover:text-[#202829]">𝘠𝘦𝘴𝘴! ➡️</Button> */}
         </div>
-        <br></br>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        ></a>
       </header>
       <DailyPoem />
     </div>
