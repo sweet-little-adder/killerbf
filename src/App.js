@@ -3,6 +3,7 @@ import john from "./img/johncook.png";
 import "./App.css";
 import styled from "styled-components";
 import HeaderMenu from "./components/HeaderMenu";
+import { useState } from "react";
 
 const Button = styled.button`
   background: transparent;
@@ -10,7 +11,12 @@ const Button = styled.button`
   border: 0.01em solid #A2E5F7;
   color: #A2E5F7;
   margin: 0 1em;
-  padding: 0.25em 1em;
+  padding: 0;
+  width: 3.25em;
+  height: 3.25em;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   font-family: times;
    user-select: none;
 `;
@@ -27,9 +33,40 @@ const Button = styled.button`
 // gf disappeared after years of psychologcal abuse by family, 
 // gf finds bfs to help her cope.
 //choose weapon
+const PoemButton = styled.button`
+  background: transparent;
+  border-radius: 999px;
+  border: 0.01em solid #A2E5F7;
+  color: #A2E5F7;
+  padding: 12px 26px;
+  font-size: 16px;
+  font-style: italic;
+  font-family: inherit;
+  user-select: none;
+  cursor: pointer;
+  &:hover {
+    background: #A2E5F7;
+    color: #202829;
+  }
+`;
+
+function DailyPoem() {
+  const [on, setOn] = useState(false);
+  return (
+    <section style={{ position: "relative", zIndex: 20, background: "#000", margin: "0 auto", padding: "0 28px 96px", maxWidth: 420, textAlign: "center", fontFamily: "Georgia, 'Times New Roman', serif" }}>
+      <div style={{ fontSize: 17, color: "#A2E5F7", fontStyle: "italic" }}>a poem every day ☾</div>
+      <PoemButton onClick={() => setOn(true)} style={{ marginTop: 14 }}>{on ? "coming soon ☾" : "turn on daily poem"}</PoemButton>
+      <small style={{ display: "block", marginTop: 12, color: "#5f7a84", fontSize: 12, lineHeight: 1.5 }}>
+        on iPhone: Add to Home Screen first, then allow notifications.<br />
+        daily poem notifications are being set up - not live yet.
+      </small>
+    </section>
+  );
+}
+
 function App() {
   return (
-    <div className="App transition-all select-none">
+    <div className="App transition-all select-none" style={{ backgroundColor: "#000", minHeight: "100vh" }}>
       <header className="App-header relative z-50 bg-[#000]/20">
         {/* <img src={john} style={{ width: "28vw", position:"absolute", top:"5rem" }}/> */}
         <div className="transition-all cursor-default hover:drop-shadow-[0_0px_8px_rgba(299,299,299,0.8)]">☁︎ ✦ ☾ </div> 
@@ -49,7 +86,7 @@ function App() {
           rel="noopener noreferrer"
         ></a>
       </header>
-      <div class="sketchfab-embed-wrapper" className="bg-black absolute top-0 left-0 w-full h-full z-10 flex justify-center items-center/ overflow-show p-0"> <iframe title="The dark heart of an interstellar nebula" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/cc16104dfcd04338abc997a3156a25b3/embed?autospin=1&autostart=1&transparent=1&ui_infos=0&ui_watermark_link=0&ui_watermark=0&ui_hint=0&ui_theme=dark&ui_color=000000&dnt=1"> </iframe> </div>
+      <DailyPoem />
     </div>
   );
 }
